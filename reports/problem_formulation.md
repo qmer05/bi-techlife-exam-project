@@ -47,18 +47,39 @@ To use BI tools to analyze behavioral patterns and provide actionable insights t
 
 ### Repository Structure
 
-/bi-techlife-project
+/bi-tech-life-balance
 │
-├── data/
-│ └── user_behavior_mental_health.csv
-├── notebooks/
-│ └── exploratory_analysis.ipynb
-├── reports/
-│ └── sprint1_problem_formulation.md
-├── dashboard/
-│ └── dashboard.pbix (Power BI) or tableau.twbx
-├── README.md
-└── requirements.txt
+├── data/                         # Contains your primary dataset and any cleaned versions
+│   └── user_behavior_mental_health.csv
+│
+├── notebooks/                   # Contains analysis and modeling notebooks
+│   ├── 01_data_cleaning.ipynb             # Sprint 2
+│   ├── 02_exploratory_analysis.ipynb      # Sprint 2
+│   ├── 03_modeling.ipynb                  # Sprint 3
+│   └── 04_visualization_interface.ipynb   # Sprint 4
+│
+├── reports/                     # Project documentation and PDF exports
+│   ├── sprint1_problem_formulation.md
+│   ├── sprint2_data_preparation.md
+│   ├── sprint3_modeling_summary.md
+│   ├── sprint4_visualisation_summary.md
+│   └── final_report.pdf
+│
+├── app/                         # Contains final deployment (optional web app or Streamlit interface)
+│   ├── main.py
+│   └── assets/
+│
+├── dashboards/                  # Optional BI dashboards (Power BI, Tableau)
+│   └── dashboard.pbix
+│
+├── outputs/                     # Exported charts, models, datasets
+│   ├── figures/
+│   └── models/
+│
+├── README.md                    # Overview of project and instructions
+├── requirements.txt             # List of Python libraries used
+└── .gitignore                   # Files to ignore in version control
+
 
 
 ---
