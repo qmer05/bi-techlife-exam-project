@@ -2,7 +2,7 @@
 
 ## 1. Project Annotation
 
-In this Business Intelligence (BI) project, we investigate the relationship between digital behavior patterns—such as screen time, device usage, and online activity—and their impact on mental health indicators like stress, mood, sleep quality, and anxiety. Our dataset includes user-reported data on device usage, daily habits, and wellness metrics. The aim is to identify hidden patterns and correlations that can guide users toward healthier digital lifestyles.
+In this Business Intelligence (BI) project, I investigate the relationship between digital behavior patterns—such as screen time, device usage, and online activity—and their impact on mental health indicators like stress, mood, sleep quality, and anxiety. My dataset includes user-reported data on device usage, daily habits, and wellness metrics. The aim is to identify hidden patterns and correlations that can guide users toward healthier digital lifestyles.
 
 This challenge is highly relevant as digital overuse has become a common yet often overlooked factor affecting mental health. The expected outcome of the project is an interactive BI dashboard and report offering insights, predictive trends, and practical recommendations based on user profiles. The solution could positively impact individuals, mental wellness app providers, and institutional wellness programs (e.g., universities, HR departments).
 
